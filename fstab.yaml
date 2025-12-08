@@ -1,0 +1,7 @@
+mountpoints:
+  /:
+    url: https://content.da.live/tibidumitru/gw25-catalog-service-branded-integration/
+    type: markup
+
+folders:
+  /products/: /products/default
