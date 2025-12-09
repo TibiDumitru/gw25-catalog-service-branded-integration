@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "Key": "add-to-wishlist",
+      "Value": "Add to Wishlist"
+    },
+    {
+      "Key": "remove-from-wishlist",
+      "Value": "Remove from Wishlist"
+    },
+    {
+      "Key": "wishlist",
+      "Value": "Wishlist"
+    },
+    {
+      "Key": "my-wishlist",
+      "Value": "My Wishlist"
+    },
+    {
+      "Key": "added-to-wishlist",
+      "Value": "Added to wishlist"
+    },
+    {
+      "Key": "removed-from-wishlist",
+      "Value": "Removed from wishlist"
+    },
+    {
+      "Key": "view-wishlist",
+      "Value": "View Wishlist"
+    }
+  ]
+}
+

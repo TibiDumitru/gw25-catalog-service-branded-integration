@@ -72,6 +72,8 @@ function updateAddToCartButtonText(addToCartInstance, inCart, labels) {
 }
 
 export default async function decorate(block) {
+
+  console.log('product-details block');
   const product = events.lastPayload('pdp/data') ?? null;
   const labels = await fetchPlaceholders();
 

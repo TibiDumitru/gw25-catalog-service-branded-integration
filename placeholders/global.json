@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "Key": "welcome",
+      "Value": "Welcome"
+    },
+    {
+      "Key": "loading",
+      "Value": "Loading..."
+    },
+    {
+      "Key": "error",
+      "Value": "An error occurred"
+    },
+    {
+      "Key": "close",
+      "Value": "Close"
+    },
+    {
+      "Key": "cancel",
+      "Value": "Cancel"
+    },
+    {
+      "Key": "save",
+      "Value": "Save"
+    },
+    {
+      "Key": "submit",
+      "Value": "Submit"
+    },
+    {
+      "Key": "search",
+      "Value": "Search"
+    },
+    {
+      "Key": "back",
+      "Value": "Back"
+    },
+    {
+      "Key": "continue",
+      "Value": "Continue"
+    }
+  ]
+}
+

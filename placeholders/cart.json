@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "Key": "shopping-cart",
+      "Value": "Shopping Cart"
+    },
+    {
+      "Key": "cart-empty",
+      "Value": "Your cart is empty"
+    },
+    {
+      "Key": "add-to-cart",
+      "Value": "Add to Cart"
+    },
+    {
+      "Key": "remove-from-cart",
+      "Value": "Remove from Cart"
+    },
+    {
+      "Key": "update-cart",
+      "Value": "Update Cart"
+    },
+    {
+      "Key": "proceed-to-checkout",
+      "Value": "Proceed to Checkout"
+    },
+    {
+      "Key": "continue-shopping",
+      "Value": "Continue Shopping"
+    },
+    {
+      "Key": "quantity",
+      "Value": "Quantity"
+    },
+    {
+      "Key": "subtotal",
+      "Value": "Subtotal"
+    },
+    {
+      "Key": "total",
+      "Value": "Total"
+    },
+    {
+      "Key": "cart-updated",
+      "Value": "Cart updated successfully"
+    },
+    {
+      "Key": "item-added",
+      "Value": "Item added to cart"
+    },
+    {
+      "Key": "item-removed",
+      "Value": "Item removed from cart"
+    }
+  ]
+}
+

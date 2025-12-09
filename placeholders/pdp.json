@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "Key": "add-to-cart",
+      "Value": "Add to Cart"
+    },
+    {
+      "Key": "out-of-stock",
+      "Value": "Out of Stock"
+    },
+    {
+      "Key": "in-stock",
+      "Value": "In Stock"
+    },
+    {
+      "Key": "special-price",
+      "Value": "Special Price"
+    },
+    {
+      "Key": "regular-price",
+      "Value": "Regular Price"
+    },
+    {
+      "Key": "quantity",
+      "Value": "Quantity"
+    },
+    {
+      "Key": "sku",
+      "Value": "SKU"
+    },
+    {
+      "Key": "details",
+      "Value": "Details"
+    },
+    {
+      "Key": "description",
+      "Value": "Description"
+    },
+    {
+      "Key": "specifications",
+      "Value": "Specifications"
+    }
+  ]
+}
+
