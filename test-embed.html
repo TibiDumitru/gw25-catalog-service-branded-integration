@@ -29,7 +29,14 @@
             color: #777;
         }
     </style>
-    <script src="https://main--gw25-catalog-service-branded-integration--tibidumitru.aem.live/scripts/aem-embed.js" type="module"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "@dropins/tools/": "/scripts/__dropins__/tools/"
+            }
+        }
+    </script>
+    <script src="/scripts/aem-embed.js" type="module"></script>
 </head>
 <body>
 
