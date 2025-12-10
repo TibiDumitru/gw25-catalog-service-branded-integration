@@ -160,7 +160,8 @@ async function loadPage() {
   loadDelayed();
 }
 
-if (!window.hlx.suppressLoadPage) loadPage(document);
+//if (!window.hlx.suppressLoadPage) loadPage(document);
+loadPage(document);
 
 (async function loadDa() {
   if (!new URL(window.location.href).searchParams.get('dapreview')) return;
