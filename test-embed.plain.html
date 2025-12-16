@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/blocks/product-details/product-details.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "@dropins/storefront-account/": "/scripts/__dropins__/storefront-account/",
+                "@dropins/storefront-auth/": "/scripts/__dropins__/storefront-auth/",
+                "@dropins/storefront-cart/": "/scripts/__dropins__/storefront-cart/",
+                "@dropins/storefront-checkout/": "/scripts/__dropins__/storefront-checkout/",
+                "@dropins/storefront-order/": "/scripts/__dropins__/storefront-order/",
+                "@dropins/storefront-payment-services/": "/scripts/__dropins__/storefront-payment-services/",
+                "@dropins/storefront-pdp/": "/scripts/__dropins__/storefront-pdp/",
+                "@dropins/storefront-recommendations/": "/scripts/__dropins__/storefront-recommendations/",
+                "@dropins/storefront-wishlist/": "/scripts/__dropins__/storefront-wishlist/",
+                "@dropins/storefront-personalization/": "/scripts/__dropins__/storefront-personalization/",
+                "@dropins/storefront-product-discovery/": "/scripts/__dropins__/storefront-product-discovery/",
+                "@dropins/tools/": "/scripts/__dropins__/tools/"
+            }
+        }
+    </script>
+    <script type="module">
+        // Initialize commerce configuration before loading aem-embed
+        import { initializeCommerce } from '/scripts/commerce.js';
+        
+        // Initialize commerce (this will call initializeConfig internally)
+        await initializeCommerce().catch(err => {
+            console.error('Failed to initialize commerce:', err);
+        });
+    </script>
+    <script src="/scripts/aem-embed.js" type="module"></script>
+</head>
+<body>
+    <section>
+        <div class="embedded-product block" data-sku="adb169">
+            <div>
+                <div>adb169</div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module">
+        // Load the embedded-product block
+        async function loadEmbeddedProduct() {
+            try {
+                const { default: decorate } = await import('/blocks/embedded-product/embedded-product.js');
+                const block = document.querySelector('.embedded-product');
+                
+                if (block && decorate) {
+                    await decorate(block);
+                    console.log('Embedded product block loaded successfully');
+                }
+            } catch (error) {
+                console.error('Error loading embedded product:', error);
+            }
+        }
+        
+        // Wait for commerce initialization
+        setTimeout(loadEmbeddedProduct, 1500);
+    </script>
+</body>
+</html>
